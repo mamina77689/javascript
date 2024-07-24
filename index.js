@@ -1,3 +1,9 @@
+// _#_
+// #_#
+// _#_
+// 0 1 2 
+// 1 2 3
+// 2 3 4
 // const num = 15;
 // const str = "haii";
 // const boolea = true;
@@ -41,8 +47,38 @@
       
 //     }
 
-console.log ('for loop')
-for (let i=15;i>=3;i--)
-{
-    console.log(i);
+// console.log ('for loop')
+// for (let i=15;i>=3;i--)
+// {
+//     console.log(i);
+// }
+
+// let stringMoney= prompt('une?');
+// let numberMoney = Number(stringMoney);
+// if (5000 < numberMoney && numberMoney < 30000){
+//     console.log(numberMoney / 100 * 115);
+// }else{
+//     console.log(numberMoney / 100 * 120);
+// }
+
+
+const number= 5;
+let result ="";
+for (let i=0 ; i < number;i++) {
+    for (let j=0 ; j < number;j++){
+        if ((i+j)%2===0){
+            result += "_"
+        }else{
+            result += "#"
+        }
+    }
+    result += "/n";
 }
+console.log (result)
+
+
+//  let box =""  
+//  for (i=0;i<6;i++){
+//     box +="x"
+//     console.log (box)
+//  } 
