@@ -1,7 +1,7 @@
 // _#_
 // #_#
 // _#_
-// 0 1 2 
+// 0 1 2
 // 1 2 3
 // 2 3 4
 // const num = 15;
@@ -17,14 +17,12 @@
 // const num = Number(tal1) + Number(tal2) + Number(tal3)
 // console.log(num)
 
-
 //let cel = prompt('Celsuis')
 //console.log(cel*1.8+32)
 //alert(cel*1.8+32)
 
 //let cm = prompt('cm')
 //alert(cm*0.393700787401575)
-
 
 // const name= prompt("hello i am ");
 // const age = prompt("i am ");
@@ -38,13 +36,12 @@
 // }else{
 //    console.log('string2 iluu');
 // }
- 
 
 // console.log ('for loop')
 // for(let i=1;i<=10;i++)
 //     {
 //       console.log(i);
-      
+
 //     }
 
 // console.log ('for loop')
@@ -61,24 +58,78 @@
 //     console.log(numberMoney / 100 * 120);
 // }
 
+// const number= 5;
+// let result ="";
+// for (let i=0 ; i < number; i++) {
+//     for (let j = 0 ; j < number; j++ ){
+//         if ((i+j)%2===0){
+//             result += "_"
+//         }else{
+//             result += "#"
+//         }
+//     }
+//     result += "\n";
+// }
+// console.log (result)
 
-const number= 5;
-let result ="";
-for (let i=0 ; i < number;i++) {
-    for (let j=0 ; j < number;j++){
-        if ((i+j)%2===0){
-            result += "_"
-        }else{
-            result += "#"
-        }
-    }
-    result += "/n";
-}
-console.log (result)
-
-
-//  let box =""  
-//  for (i=0;i<6;i++){
-//     box +="x"
+//  let box =""
+//  for (i=0 ; i<6; i++) {
+//     box +="*"
 //     console.log (box)
-//  } 
+//  }
+
+// let studentAges = [10,20,15,19,18,19,19];
+// let i = 0;
+// let sum =0;
+// for (let i=0 ; i <studentAges.length;i++) {
+//     sum += studentAges[i];
+// }
+// let avarage =sum /studentAges.length;
+// console.log(avarage)
+
+// let userBalance =[1000,2000,2500,4000000,13054,323425];
+// for (let i=0;i<userBalance.length  ; i++) {
+// userBalance[i]=userBalance[i]*1.15;
+// }
+// console.log(userBalance)
+
+// const itCompanies =["facebook","google","microsoft","apple","ibm","oracle","amazon"];
+// console.log(itCompanies);
+// console.log(itCompanies.length)
+// console.log(itCompanies[0])
+// console.log(itCompanies[itCompanies.length -1])
+// console.log(itCompanies[Math.ceil(itCompanies.length /2) -1])
+
+// function fullName(){
+// console.log("bilgee hulan")
+// }
+
+// fullName();
+
+// function Fullname(name, lastname){
+//     console.log (name+' '+lastname);
+// }
+// Fullname('hulan','bilgee');
+
+// function numm(num1, num2) {
+//   for (let i = num1; i <= num2; i++) {
+//     if (i % 2 === 0) {
+//       console.log(i);
+//     }
+//   }
+// }
+// numm(1, 7);
+
+
+// function numm(num1, num2) {
+//   for (let i = num1; i <= num2; i++) {
+//     if (i % 2 !== 0) {
+//       console.log(i);
+//     }
+//   }
+// }
+// numm(1, 7);
+
+const arr =[1,2,5,7,8]
+
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````                                                                                                                                                                                                                                                                                                                                                
