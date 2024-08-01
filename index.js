@@ -100,36 +100,95 @@
 // console.log(itCompanies[itCompanies.length -1])
 // console.log(itCompanies[Math.ceil(itCompanies.length /2) -1])
 
+//1
 // function fullName(){
 // console.log("bilgee hulan")
 // }
 
 // fullName();
 
+//2
 // function Fullname(name, lastname){
 //     console.log (name+' '+lastname);
 // }
 // Fullname('hulan','bilgee');
 
-// function numm(num1, num2) {
-//   for (let i = num1; i <= num2; i++) {
-//     if (i % 2 === 0) {
-//       console.log(i);
+//3
+// function sum(a, b) {
+//   sums = a + b;
+//   return sums;
+// }
+// console.log(sum(2, 9));
+
+// //4
+// // function numm(num1, num2) {
+// //   for (let i = num1; i <= num2; i++) {
+// //     if (i % 2 === 0) {
+// //       console.log(i);
+// //     }
+// //   }
+// // }
+// // numm(1, 7);
+
+// //5
+// // function numm(num1, num2) {
+// //   for (let i = num1; i <= num2; i++) {
+// //     if (i % 2 !== 0) {
+// //       console.log(i);
+// //     }
+// //   }
+// // }
+// // numm(1, 7);
+
+// let dataa = [1, 3, 5, 6, 13, 123, 59, 69, 169];
+// function finder(a) {
+//   console.log(data.indexOf(a));
+// }
+// finder(12);
+
+// let data = [1, 3, 5, 6, 13, 123, 59];
+// let sum = 0;
+// function avr() {
+//   for (let i = 0; i < data.length; i++) {
+//     sum += data[i];
+//   }
+//   console.log(sum / (data.length + 1));
+// }
+// avr();
+
+// let stri = "Sainuu";
+// function bstr(a) {
+//   console.log(a.toUpperCase());
+// }
+// bstr(stri);
+
+// let string = "Sainuu";
+// function bstr(a) {
+//   console.log(a.toLowerCase());
+// }
+// bstr(stri);
+
+// let arr = [4, 32, 2, 5, 8, -10, 20, 1, 0, -20, 69, -30];
+
+// function filt(arr) {
+//   for (let i = 1; i < arr.length; i++) {
+//     for (let j = 0; j < i; j++) {
+//       if (arr[i] < arr[j]) {
+//         x = arr[i];
+//         arr[i] = arr[j];
+//         arr[j] = x;
+//       }
 //     }
 //   }
+//   return arr;
 // }
-// numm(1, 7);
+// console.log(filt(arr));
 
+document.getElementsByTagName("h1")[0].innerHTML = "tagName";
+document.getElementsByClassName("hai")[0].innerHTML = "class";
+document.getElementById("hi")[1].innerHTML = "id";
 
-// function numm(num1, num2) {
-//   for (let i = num1; i <= num2; i++) {
-//     if (i % 2 !== 0) {
-//       console.log(i);
-//     }
-//   }
-// }
-// numm(1, 7);
-
-const arr =[1,2,5,7,8]
-
-``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````                                                                                                                                                                                                                                                                                                                                                
+document.getElementsByClassName("1")[0].innerHTML = "class";
+document.getElementsByClassName("1")[1].innerHTML = "class";
+document.getElementsByClassName("1")[2].innerHTML = "class";
+document.getElementsByClassName("1")[3].innerHTML = "class";
